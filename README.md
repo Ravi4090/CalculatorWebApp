@@ -6,7 +6,7 @@ You are working for an MNC - Software Solutions company as a DevOps Engineer and
 1. Setup a Jenkins server on AWS ubuntu machine.
 2. Create a pipeline project.
 3. Configure below git repository to code checkout.
-GitHub : Repo URL
+GitHub : https://github.com/Ravi4090/CalculatorWebApp.git
 4. Compile the source code using Maven
 5. Execute the Junit test cases using Maven
 6. Package the application as war.
