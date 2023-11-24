@@ -57,6 +57,19 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.0</version> <!-- Use the latest version -->
+                <configuration>
+                    <warName>calculator-webapp</warName> <!-- Set the name of the WAR file -->
+                    <webResources>
+                        <resource>
+                            <directory>src\main\resources\webapp</directory> <!-- Location of web resources -->
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
             <!-- Maven Surefire Plugin for running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
