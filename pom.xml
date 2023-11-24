@@ -65,7 +65,7 @@
                     <warName>calculator-webapp</warName> <!-- Set the name of the WAR file -->
                     <webResources>
                         <resource>
-                            <directory>src\main\resources\webapp</directory> <!-- Location of web resources -->
+                            <directory>src\main\webapp</directory> <!-- Location of web resources -->
                         </resource>
                     </webResources>
                 </configuration>
