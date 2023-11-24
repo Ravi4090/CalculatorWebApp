@@ -14,28 +14,28 @@
         <h1>Assignment - 1 Calculator Web App</h1>
     </header>
 
-    <div class="calculator">
+    <div id="calculator" class="calculator">
         <label for="display">Calculator Display</label>
         <input type="text" id="display" readonly>
-        <div class="buttons">
+        <div id="buttons" class="buttons">
 
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('+')">+</button>
-            <button onclick="appendToDisplay('-')">-</button>
-            <button onclick="appendToDisplay('*')">*</button>
-            <button onclick="appendToDisplay('/')">/</button>
-            <button onclick="calculateResult()">=</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="clearDisplay()">C</button>
+            <button id="btn1" onclick="appendToDisplay('1')">1</button>
+            <button id="btn2" onclick="appendToDisplay('2')">2</button>
+            <button id="btn3" onclick="appendToDisplay('3')">3</button>
+            <button id="btn4" onclick="appendToDisplay('4')">4</button>
+            <button id="btn5" onclick="appendToDisplay('5')">5</button>
+            <button id="btn6" onclick="appendToDisplay('6')">6</button>
+            <button id="btn7" onclick="appendToDisplay('7')">7</button>
+            <button id="btn8" onclick="appendToDisplay('8')">8</button>
+            <button id="btn9" onclick="appendToDisplay('9')">9</button>
+            <button id="btn0" onclick="appendToDisplay('0')">0</button>
+            <button id="btnPlus" onclick="appendToDisplay('+')">+</button>
+            <button id="btnMinus" onclick="appendToDisplay('-')">-</button>
+            <button id="btnMultiply" onclick="appendToDisplay('*')">*</button>
+            <button id="btnDivide" onclick="appendToDisplay('/')">/</button>
+            <button id="btnEquals" onclick="calculateResult()">=</button>
+            <button id="btnDot" onclick="appendToDisplay('.')">.</button>
+            <button id="btnClear" onclick="clearDisplay()">C</button>
         </div>
     </div>
     <script src="script.js"></script>
