@@ -78,7 +78,7 @@
                 <version>3.3.2</version> <!-- Adjust to the latest version -->
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                     <finalName>simple-calculator-web-app/finalName>
+                     <finalName>simple-calculator-web-app</finalName>
                 </configuration>
             </plugin>
         </plugins>
