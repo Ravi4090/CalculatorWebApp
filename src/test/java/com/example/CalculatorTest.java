@@ -19,7 +19,7 @@ public class CalculatorTest {
     public void setup() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // Run Chrome in headless mode
+        options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200");
         driver = new ChromeDriver(options);
 
         // Navigate to the HTML file using an absolute path
